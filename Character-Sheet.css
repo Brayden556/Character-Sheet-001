@@ -115,3 +115,39 @@
     align-self: center;
     gap: 5rem;
 }
+
+/*Third attempt to use flex */
+.top-panel-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.top-panel-title {
+    border: 1px solid black;
+    width: 35%;
+    height: 100px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+
+.top-panel-title h1 {
+    margin: 1em;
+    text-align: center;
+}
+
+.top-panel-player-info {
+    border: 1px solid black;
+    width: 65%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.top-panel-player-info li {
+    border-top: 1px solid black;
+    display: inline-block;
+    padding: 0 2px;
+    margin: 1em;
+    font-size: large;
+}
